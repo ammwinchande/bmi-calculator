@@ -6,11 +6,11 @@ const labelTextStyle = TextStyle(
   color: Color(0xFF8D8E98),
 );
 
-class CardContent extends StatelessWidget {
+class IconContent extends StatelessWidget {
   final IconData icon;
   final String label;
 
-  CardContent({@required this.icon, @required this.label});
+  IconContent({@required this.icon, @required this.label});
 
   @override
   Widget build(BuildContext context) {
